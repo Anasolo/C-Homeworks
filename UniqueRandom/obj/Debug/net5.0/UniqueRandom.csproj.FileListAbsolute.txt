@@ -1,0 +1,15 @@
+C:\Users\Ana\source\repos\Homework\UniqueRandom\bin\Debug\net5.0\UniqueRandom.exe
+C:\Users\Ana\source\repos\Homework\UniqueRandom\bin\Debug\net5.0\UniqueRandom.deps.json
+C:\Users\Ana\source\repos\Homework\UniqueRandom\bin\Debug\net5.0\UniqueRandom.runtimeconfig.json
+C:\Users\Ana\source\repos\Homework\UniqueRandom\bin\Debug\net5.0\UniqueRandom.runtimeconfig.dev.json
+C:\Users\Ana\source\repos\Homework\UniqueRandom\bin\Debug\net5.0\UniqueRandom.dll
+C:\Users\Ana\source\repos\Homework\UniqueRandom\bin\Debug\net5.0\ref\UniqueRandom.dll
+C:\Users\Ana\source\repos\Homework\UniqueRandom\bin\Debug\net5.0\UniqueRandom.pdb
+C:\Users\Ana\source\repos\Homework\UniqueRandom\obj\Debug\net5.0\UniqueRandom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ana\source\repos\Homework\UniqueRandom\obj\Debug\net5.0\UniqueRandom.AssemblyInfoInputs.cache
+C:\Users\Ana\source\repos\Homework\UniqueRandom\obj\Debug\net5.0\UniqueRandom.AssemblyInfo.cs
+C:\Users\Ana\source\repos\Homework\UniqueRandom\obj\Debug\net5.0\UniqueRandom.csproj.CoreCompileInputs.cache
+C:\Users\Ana\source\repos\Homework\UniqueRandom\obj\Debug\net5.0\UniqueRandom.dll
+C:\Users\Ana\source\repos\Homework\UniqueRandom\obj\Debug\net5.0\ref\UniqueRandom.dll
+C:\Users\Ana\source\repos\Homework\UniqueRandom\obj\Debug\net5.0\UniqueRandom.pdb
+C:\Users\Ana\source\repos\Homework\UniqueRandom\obj\Debug\net5.0\UniqueRandom.genruntimeconfig.cache
