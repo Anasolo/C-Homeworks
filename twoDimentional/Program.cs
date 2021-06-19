@@ -169,6 +169,7 @@ namespace twoDimentional
             {
                 Console.WriteLine("No even numbers found");
             }
+            // არასწორია მაქსიმუმი და მინიმუმი
         }
     }
 }
