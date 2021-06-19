@@ -13,3 +13,4 @@ C:\Users\Ana\source\repos\Homework\UniqueRandom\obj\Debug\net5.0\UniqueRandom.dl
 C:\Users\Ana\source\repos\Homework\UniqueRandom\obj\Debug\net5.0\ref\UniqueRandom.dll
 C:\Users\Ana\source\repos\Homework\UniqueRandom\obj\Debug\net5.0\UniqueRandom.pdb
 C:\Users\Ana\source\repos\Homework\UniqueRandom\obj\Debug\net5.0\UniqueRandom.genruntimeconfig.cache
+C:\Users\Ana\source\repos\Homework\UniqueRandom\obj\Debug\net5.0\UniqueRandom.csproj.AssemblyReference.cache

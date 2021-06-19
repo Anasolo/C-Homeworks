@@ -151,6 +151,42 @@ public class Program
         {
             Console.WriteLine("No Even Numbers Found.");
         }
-    }
 
-}
+        // პირველი კენტი რიცხვის მოძებნა
+
+        if(countOdds > 0)
+        {
+            int oddMax = 0, oddMin = 0;
+            int firstOddIndex = 0;
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] % 2 != 0)
+                {
+                    oddMax = array[i];
+                    oddMin = array[i];
+                    firstOddIndex = i;
+                    break;
+                }
+            }
+            for (int i = firstOddIndex; i < array.Length; i++)
+            {
+                if (array[i] % 2 != 0 && array[i] > oddMax)
+                {
+                    oddMax = array[i];
+                }
+                if(array[i] %2 !=0 && array[i] < oddMin)
+                {
+                    oddMin = array[i];
+                }
+            }
+            Console.WriteLine($"Maximum odd number is {oddMax}");
+            Console.WriteLine($"Minimum odd number is {oddMin}");
+        }
+        else
+        {
+            Console.WriteLine("No odd Numbers Found.");
+        }
+
+    }
+    }
