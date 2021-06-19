@@ -4,7 +4,6 @@ namespace G11_20210607
 
 {
     class Program
-
     {
         static void Main(string[] args)
         {
@@ -13,26 +12,15 @@ namespace G11_20210607
 
             for (int i = 0; i < array.Length; i++)
             {
-                int k = r.Next(15);
-                bool exist = false;
-                // გავრბივართ მასივს და ვამოწმებთ წერია თუ არა რენდომ რიცხვი მასივში.
-                // j < i იმიტომ რომ იქამდე გაირბინოს ციკლი სადამდეც მისულია.
+                array[i] = r.Next(10);
+
                 for (int j = 0; j < i; j++)
                 {
-                    if (array[j] == k)
+                    if (array[i] == array[j])
                     {
-                        exist = true;
+                        i--;
                         break;
                     }
-                }
-
-                if (exist == false)
-                {
-                    array[i] = k;
-                }
-                else
-                {
-                    array[i] = r.Next(15);
                 }
             }
 
@@ -41,9 +29,5 @@ namespace G11_20210607
                 Console.WriteLine($"array[{i}] = {array[i]}");
             }
         }
-
     }
 }
-
-
-
