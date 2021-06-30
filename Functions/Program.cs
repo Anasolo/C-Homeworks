@@ -6,11 +6,13 @@ namespace Functions
     {
         static void Main()
         {
-            int[] x = { 1, 6, 2, 3 };
-            int[] y = { 3, 1, 2, 8 };
+            int[] x = { 41, 10, 20, 43 };
+            int[] y = { 12, 32, 22, 11 };
 
-            Sum(x);
-            Sum(y);
+            int k = Sum(x);
+            Console.WriteLine($"Sum is {k}");
+            int z = Sum(y);
+            Console.WriteLine($"Sum is {z}");
             Max(x);
             Max(y);
             Min(x);
@@ -20,8 +22,7 @@ namespace Functions
 
             Console.ReadKey();
         }
-        static void Sum(int[] array)
-
+        static int Sum(int[] array)
         {
             int sum = 0;
 
@@ -29,7 +30,7 @@ namespace Functions
             {
                 sum += array[i];
             }
-            Console.WriteLine($"Sum is {sum}");
+            return sum;
         }
         // დამიწერეთ Sum-ის მსგავსად 3 ფუნქცია, რომლებიც მიიღებს მასივს და დაბეჭდავს შემდეგ მნიშვნელობებს:
         // 1. მაქსიმუმი
@@ -43,7 +44,6 @@ namespace Functions
                 {
                     max = array[i];
                 }
-                i++;
             }
             Console.WriteLine($"Maximum number is {max}");
         }
@@ -58,20 +58,13 @@ namespace Functions
                 {
                     min = array[i];
                 }
-                i++;
             }
             Console.WriteLine($"Minimum number is {min}");
         }
         // 3. საშუალო არითმეტიკული
         static void Average(int[] array)
         {
-            int sum = 0;
-
-            for (int i = 0; i < array.Length; i++)
-            {
-                sum += array[i];
-            }
-
+            int sum = Sum(array);
             double average = (double)sum / array.Length;
 
             Console.WriteLine($"Average number is {average}");
