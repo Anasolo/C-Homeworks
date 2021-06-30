@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "twoDimentional", "twoDiment
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoDimentionalUnique", "TwoDimentionalUnique\TwoDimentionalUnique.csproj", "{5E5904B7-9A75-4EE6-A188-246DF80AF007}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions", "Functions\Functions.csproj", "{AAA8BBFD-CA59-4D1E-B37C-2F652AD6C5D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5E5904B7-9A75-4EE6-A188-246DF80AF007}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E5904B7-9A75-4EE6-A188-246DF80AF007}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E5904B7-9A75-4EE6-A188-246DF80AF007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA8BBFD-CA59-4D1E-B37C-2F652AD6C5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA8BBFD-CA59-4D1E-B37C-2F652AD6C5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA8BBFD-CA59-4D1E-B37C-2F652AD6C5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA8BBFD-CA59-4D1E-B37C-2F652AD6C5D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
