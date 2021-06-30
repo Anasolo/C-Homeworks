@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ana\\source\\repos\\Homework\\UniqueRandom\\UniqueRandom.csproj": {}
+    "C:\\Users\\asolomonia\\Desktop\\C-Homeworks\\UniqueRandom\\UniqueRandom.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ana\\source\\repos\\Homework\\UniqueRandom\\UniqueRandom.csproj": {
+    "C:\\Users\\asolomonia\\Desktop\\C-Homeworks\\UniqueRandom\\UniqueRandom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ana\\source\\repos\\Homework\\UniqueRandom\\UniqueRandom.csproj",
+        "projectUniqueName": "C:\\Users\\asolomonia\\Desktop\\C-Homeworks\\UniqueRandom\\UniqueRandom.csproj",
         "projectName": "UniqueRandom",
-        "projectPath": "C:\\Users\\Ana\\source\\repos\\Homework\\UniqueRandom\\UniqueRandom.csproj",
-        "packagesPath": "C:\\Users\\Ana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ana\\source\\repos\\Homework\\UniqueRandom\\obj\\",
+        "projectPath": "C:\\Users\\asolomonia\\Desktop\\C-Homeworks\\UniqueRandom\\UniqueRandom.csproj",
+        "packagesPath": "C:\\Users\\asolomonia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asolomonia\\Desktop\\C-Homeworks\\UniqueRandom\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asolomonia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
