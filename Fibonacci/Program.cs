@@ -39,7 +39,7 @@ namespace Fibonacci
                     Console.Write(array[j]);
                     Console.Write(" ");
                 }
-                
+                // ეს ამოხსნა იმხელა მასივს ქმნის რამდენიც upperBound-ია. ბეჭდვისას ნოლებს ვაკლებთ და ვტოვებთ მარტო პირველ ნოლს.
             }
         }
     }
