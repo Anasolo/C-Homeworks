@@ -9,31 +9,38 @@ namespace Fibonacci
             Console.Write("Enter upper bound number: ");
 
             int upperBound = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine($"Upper bound number is {upperBound}");
-
-            // ჩამომიწერეთ ფიბონაჩის რიცხვების თანმიმდევრობა upperBound-მდე.
-
-            // მაგალითად, თუ upperBound-ში შევიყვანთ 10-ს, უნდა ჩამოწეროთ შემდეგი რიცხვები:
-
-            // 0,1,1,2,3,5,8
+            int[] array = new int[upperBound];
 
             int first = 0;
+            array[0] = first;
             Console.WriteLine(first);
 
             int second = 1;
-            Console.WriteLine(second);
 
             int next = first + second;
-
+            int i = 1;
             while (next < upperBound)
             {
+                array[i] = next;
+                i++;
                 Console.WriteLine(next);
                 next = first + second;
                 first = second;
                 second = next;
+                
             }
-            Console.ReadKey();
+
+            Console.WriteLine("====================");
+
+            for (int j = 0; j < array.Length; j++)
+            {
+                if(array[j] != 0 || j== 0)
+                {
+                    Console.Write(array[j]);
+                    Console.Write(" ");
+                }
+                
+            }
         }
     }
 }
