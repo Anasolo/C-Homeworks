@@ -1,45 +1,72 @@
 ﻿using System;
-
 namespace QuadraticEquation
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter a  ");
-            int a = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter b  ");
-            int b = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter c  ");
-            int c = Convert.ToInt32(Console.ReadLine());
+            double? x1, x2;
 
-            double x1 = 0, x2 = 0;
-            QuadraticEquation(ref a, ref b, ref c, out x1, out x2);
+            // გააკეთეთ ისე, რომ თუ a-ში შევიყვანთ 0-ს, დაგვიწეროს რომ ეს არ შეიძლება და თავიდან გვთხოვოს იგივე კოეფიციენტის შეყვანა.
 
-            Console.WriteLine($"X1 = {x1}");
-            Console.WriteLine($"X2 = {x2}");
-        }
+            Console.Write("A = ");
+            double a = Convert.ToDouble(Console.ReadLine());
 
-        static void QuadraticEquation(ref int a, ref int b, ref int c, out double x1, out double x2)
-        {
-
-            int D = b * b - 4 * a * c;
-            if (D < 0)
+            if(a == 0)
             {
-                Console.WriteLine("No roots found");
+                Console.WriteLine("0 is invalid, try another one.");
+                a = Convert.ToDouble(Console.ReadLine());
             }
-            if (D == 0)
+
+            Console.Write("B = ");
+            double b = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("C = ");
+            double c = Convert.ToDouble(Console.ReadLine());
+
+            if (a != 0)
             {
-                x1 = -b / 2 * a;
-                x2 = x1;
+                double d = GetD(a, b, c);
+
+                Console.WriteLine($"D = {d}");
+
+                bool hasRoots = GetRoots(a, b, c, out x1, out x2);
+
+                if (hasRoots == true)
+                {
+                    Console.WriteLine($"X1 = {x1}");
+                    Console.WriteLine($"X2 = {x2}");
+                }
+                else
+                {
+                    Console.WriteLine("No roots found");
+                }
+                Console.ReadKey();
             }
-            if (D > 0)
+
+            static double GetD(double a, double b, double c)
             {
-                x1 = (-b - Math.Sqrt(D)) / 4 * a;
-                x2 = (-b + Math.Sqrt(D)) / 4 * a;
+                return Math.Pow(b, 2) - 4 * a * c;
             }
-            x1 = 0;
-            x2 = 0;
+
+            static bool GetRoots(double a, double b, double c, out double? x1, out double? x2)
+            {
+                double d = GetD(a, b, c);
+
+                if (d > 0)
+                {
+                    x1 = (-b - Math.Sqrt(d)) / (2 * a);
+                    x2 = (-b + Math.Sqrt(d)) / (2 * a);
+                    return true;
+                }
+                else if (d == 0)
+                {
+                    x1 = x2 = (-b - d) / (2 * a);
+                    return true;
+                }
+                x1 = x2 = null;
+                return false;
+            }
         }
     }
 }
