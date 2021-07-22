@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Fibonacci\Fibo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciArray", "FibonacciArray\FibonacciArray.csproj", "{2736B6A9-DE51-4925-87AF-47697B00489E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquation", "QuadraticEquation\QuadraticEquation.csproj", "{62863FC8-BF46-4C7D-A31C-7169FDAB7235}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuadraticEquation", "QuadraticEquation\QuadraticEquation.csproj", "{62863FC8-BF46-4C7D-A31C-7169FDAB7235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SameNumbers", "SameNumbers\SameNumbers.csproj", "{C6EA0CA1-607B-4B46-AD13-107D95961A66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{62863FC8-BF46-4C7D-A31C-7169FDAB7235}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62863FC8-BF46-4C7D-A31C-7169FDAB7235}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62863FC8-BF46-4C7D-A31C-7169FDAB7235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6EA0CA1-607B-4B46-AD13-107D95961A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6EA0CA1-607B-4B46-AD13-107D95961A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6EA0CA1-607B-4B46-AD13-107D95961A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6EA0CA1-607B-4B46-AD13-107D95961A66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
